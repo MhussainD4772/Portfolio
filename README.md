@@ -1,4 +1,4 @@
-# 🚀 Saketh's Portfolio
+# 🚀 Syed's Portfolio
 
 <div align="center">
 
