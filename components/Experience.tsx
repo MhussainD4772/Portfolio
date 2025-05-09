@@ -8,35 +8,34 @@ interface ExperienceProps {
 }
 
 const experienceItems = [
-    {
-    title: "Private Tutor",
-    company: "Self-Employed",
-    period: "Oct 2022 - Dec 2024",
+  {
+    title: "Software Development Engineer in Test (SDET)",
+    company: "First National Bank | Pittsburgh, Pennsylvania",
+    period: "Nov 2024 – Present",
     responsibilities: [
-      "Provided one-on-one tutoring in Math, Science, and Social Studies at home, helping students improve their academic performance.",
-      "Created tailored lesson plans to address individual student learning needs, resulting in significant grade improvements."
+      "Created a Playwright automation framework using Java, enabling scalable test scripts for banking workflows. Automated transactions in Argo Teller and Navigator, ensuring backend consistency with real-time timestamp validations at over 99% accuracy.",
+      "Collaborated with developers and product owners to define test strategy, discover defects, and maintain testability standards.",
+      "Integrated Playwright tests into Azure DevOps CI/CD pipelines, cutting regression cycle time by 60% and ensuring automated execution across environments.",
+      "Used data-driven and component-based test design patterns, reducing script maintenance by 40% and enhancing code readability.",
+      "Debugged flaky tests, improving test reliability across UI/API layers and preventing production regressions.",
+      "Designed REST API validation suites, identifying mismatches and boosting system reliability during financial operations.",
+      "Participated in sprint planning, retrospectives, and test case reviews in an Agile setup, focusing on quality throughout the SDLC."
     ],
   },
   {
-    title: "Software Developer Intern",
-    company: "Levicent Software Technologies",
-    period: "May 2024 - Nov 2024",
+    title: "Quality Analyst",
+    company: "Yotta Systems Inc | India",
+    period: "Aug 2018 – Aug 2022",
     responsibilities: [
-      "Engineered a multi-language support system for critical enterprise applications (HMS & HRMS), driving user engagement up by 20% through enhanced global accessibility",
-      "Designed and implemented robust session management, elevating security protocols and reducing unauthorized access by 15% across systems",
-      "Spearheaded chatbot integration using PyTorch for a Learning Management System, streamlining customer support and cutting query response times in half",
+      "Built automated test scripts using Selenium with Python and TestNG, validating Amazon services' frontend and backend functionality.",
+      "Enhanced an internal test automation framework by integrating custom utilities and assertion libraries, reducing code duplication and speeding up new test onboarding.",
+      "Designed and implemented modular test suites using BDD (Cucumber) to improve collaboration between QA, PMs, and dev teams.",
+      "Led validation of functional and non-functional requirements, including edge case testing, regression testing, and UI responsiveness.",
+      "Analyzed code-level issues with developers, providing root cause insights and contributing to early bug prevention.",
+      "Used JIRA to track test progress, bug status, and release readiness, ensuring traceability and communication with stakeholders.",
+      "Documented test results and contributed to quality metrics reporting, supporting data-driven decisions on software stability."
     ],
   },
-  {
-    title: "Lens Developer",
-    company: "Freelance - SnapAR",
-    period: "Jan 2022 - May 2024",
-    responsibilities: [
-      "Crafted over 300 cutting-edge augmented reality lenses for Snapchat, amassing a staggering 150 billion views and transforming user experiences",
-      "Growing my Snapchat profile to 700K followers by leveraging innovative AR lens designs and strategic social media growth tactics",
-      "Collaborating with top creators on innovative AR lenses, pushing creative boundaries and expanding global audience reach",
-    ],
-  }
 ];
 
 const containerVariants = {
@@ -85,21 +84,15 @@ export default function Experience({ theme }: ExperienceProps) {
                     theme === "dark" ? "text-[#58A6FF]" : "text-[#3B82F6]"
                   }`}
                 />
-                <h3
-                  className={`text-lg md:text-xl font-semibold ${
-                    theme === "dark" ? "text-white" : "text-[#1F2937]"
-                  }`}
-                >
-                  {item.title}
-                </h3>
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center w-full">
+                  <span className="font-semibold text-base md:text-lg">
+                    {item.title}
+                  </span>
+                  <span className="text-sm md:text-base font-medium text-right mt-1 sm:mt-0">
+                    {item.company} | {item.period}
+                  </span>
+                </div>
               </div>
-              <p
-                className={`text-sm ${
-                  theme === "dark" ? "text-[#8B949E]" : "text-[#6B7280]"
-                }`}
-              >
-                {item.company} | {item.period}
-              </p>
               <ul className="mt-2 list-disc list-inside">
                 {item.responsibilities.map((responsibility, idx) => (
                   <li

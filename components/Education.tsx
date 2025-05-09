@@ -9,21 +9,12 @@ interface EducationProps {
 
 const educationItems = [
   {
-    degree: "Master of Science in Data Science and Analytics",
-    school: "Florida Atlantic University",
-    period: "Spring 2025",
-    logo: "https://www.fau.edu/images/homepage/owlhead-logo.png", // FAU Logo
+    degree: "Master of Science in Information Technology (STEM)",
+    school: "University of the Cumberlands – Kentucky, USA",
+    period: "August 2024",
+    logo: "https://www.ucumberlands.edu/themes/custom/ucumberlands/logo.svg", // UC Logo
     details:
-      "GPA: 4/4. Pursuing an MS in Data Science and Analytics, specializing in advanced data analysis, machine learning, and big data technologies. The program covers key areas such as deep learning, artificial intelligence (AI), and the development of innovative data science solutions for complex, real-world challenges. Currently maintaining a 4.0 GPA, reflecting a strong commitment to academic excellence and a passion for applying data-driven insights to solve intricate problems.",
-  },  
-  {
-    degree:
-      "Bachelor of Technology in Electronics and Communication Engineering",
-    school: "Jawaharlal Nehru Technological University, Hyderabad",
-    period: "Graduated: 2024",
-    logo: "https://jntuh.ac.in/images/jntuhlogo.png", // JNTUH Logo
-    details:
-      "CGPA: 7.3/10. Specialized in signal processing, embedded systems, Internet of Things (IoT), Python programming, and communication networks.",
+      "GPA: 3.8. Completed a rigorous MS in Information Technology program with a STEM focus, covering advanced coursework in software engineering, cloud computing, cybersecurity, and data management. Developed hands-on expertise through real-world IT projects, collaborative teamwork, and research in emerging technologies. Demonstrated strong analytical, problem-solving, and leadership skills, preparing for impactful roles in the IT industry.",
   },
 ];
 
@@ -66,14 +57,7 @@ export default function Education({ theme }: EducationProps) {
               variants={itemVariants}
               whileHover={{ scale: 1.02 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
-              className="flex items-center space-x-4"
             >
-              {/* Display the logo with adjusted styling */}
-              <img
-                src={item.logo}
-                alt={`${item.school} logo`}
-                className="h-10 w-10 object-contain" // Adjusted size
-              />
               <div>
                 <h3
                   className={`text-lg md:text-xl font-semibold ${

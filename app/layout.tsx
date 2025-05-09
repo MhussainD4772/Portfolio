@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Saketh Yalamanchili Portfolio",
+  title: "Syed Hussain Portfolio",
   description: "Data Scientist, Software Developer, and AR Creator",
   icons: {
     icon: "app\favicon.ico"
