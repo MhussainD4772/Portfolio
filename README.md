@@ -20,11 +20,6 @@ A cutting-edge portfolio website showcasing modern web development practices and
 
 </div>
 
-## 📸 Preview
-
-<div align="center">
-  <img src="public/preview.png" alt="Portfolio Preview" width="800"/>
-</div>
 
 ## ✨ Features
 
