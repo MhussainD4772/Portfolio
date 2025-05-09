@@ -1,4 +1,4 @@
-# 🚀 Saketh's Portfolio
+# 🚀 Syed's Portfolio
 
 <div align="center">
 
@@ -18,12 +18,6 @@ A cutting-edge portfolio website showcasing modern web development practices and
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com)
 
-</div>
-
-## 📸 Preview
-
-<div align="center">
-  <img src="public/preview.png" alt="Portfolio Preview" width="800"/>
 </div>
 
 ## ✨ Features
@@ -151,7 +145,7 @@ Contributions are what make the open-source community amazing! Any contributions
 
 ## 📫 Contact
 
-Saketh - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+Syed - mohammedjoe53@gmail.com
 
 Project Link: [https://github.com/MhussainD4772/Portfolio](https://github.com/MhussainD4772/Portfolio)
 
@@ -166,7 +160,7 @@ Project Link: [https://github.com/MhussainD4772/Portfolio](https://github.com/Mh
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by Saketh</sub>
+  <sub>Built with ❤️ by Syed</sub>
   <br>
   <sub>If you like this project, please give it a ⭐️</sub>
 </div>

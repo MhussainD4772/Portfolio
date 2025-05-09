@@ -52,20 +52,6 @@ const projects = [
   }
 ];
 
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1, transition: { staggerChildren: 0.1 } },
-};
-
-const itemVariants = {
-  hidden: { y: 20, opacity: 0 },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: { type: "spring", stiffness: 100 },
-  },
-};
-
 export default function Projects({ theme }: ProjectsProps) {
   return (
     <Card
@@ -79,9 +65,20 @@ export default function Projects({ theme }: ProjectsProps) {
         <CardTitle className="text-2xl font-bold">Projects</CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="space-y-8">
+        <motion.div 
+          className="space-y-8"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+        >
           {projects.map((project, idx) => (
-            <div key={idx} className="space-y-2">
+            <motion.div 
+              key={idx} 
+              className="space-y-2"
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ delay: idx * 0.1 }}
+            >
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center">
                 <span className="font-semibold text-base md:text-lg">
                   {project.title}
@@ -107,9 +104,9 @@ export default function Projects({ theme }: ProjectsProps) {
               {idx !== projects.length - 1 && (
                 <hr className="my-4 border-t border-gray-300 dark:border-gray-700" />
               )}
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </CardContent>
     </Card>
   );

@@ -40,16 +40,6 @@ const Experience = dynamic(() => import("./Experience"), { ssr: false });
 const Projects = dynamic(() => import("./Projects"), { ssr: false });
 const Skills = dynamic(() => import("./Skills"), { ssr: false });
 
-const highlightedText = (text: string) => (
-  <span
-    className={`font-semibold ${
-      theme === "dark" ? "text-blue-300" : "text-blue-600"
-    }`}
-  >
-    {text}
-  </span>
-);
-
 export default function Portfolio() {
   const { theme, setTheme } = useTheme();
   const [activeTab, setActiveTab] = useState("about");
