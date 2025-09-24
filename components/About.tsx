@@ -41,28 +41,27 @@ const About: React.FC<AboutProps> = ({ theme }) => {
         </p>
 
         <p className="text-sm md:text-base">
-          This isn&apos;t just another {highlightedText("portfolio")}. It&apos;s a window into my story — one built on {highlightedText("discipline")}, {highlightedText("passion")}, and a relentless desire to grow.
+          🎓 I&apos;m a {highlightedText("Postgraduate in Computer Science")} (US, MS IT &apos;24) with a strong foundation in {highlightedText("software development and testing methodologies")} building the essential mindset every software developer and quality engineer must carry.
         </p>
 
         <p className="text-sm md:text-base">
-          I&apos;m {highlightedText("Syed Mohammed Hussain")}, a {highlightedText("QA Automation Engineer")} by profession and a {highlightedText("cricketer")} by heart. I currently work at {highlightedText("First National Bank, USA")}, writing automation frameworks and validating real-world financial systems. 
+          💼 Currently working at {highlightedText("First National Bank")} as an {highlightedText("SDET / Quality Engineer")}, focusing on building and maintaining robust test automation frameworks ({highlightedText("Java + Playwright + Cucumber BDD")}). My role bridges development and quality by ensuring test strategies align with business-critical systems.
         </p>
 
         <p className="text-sm md:text-base">
-         But beyond code, I&apos;m also a {highlightedText("left-handed opening batsman and wicketkeeper")} who brings the same {highlightedText("focus, discipline, and strategy")} from the cricket field into every line of code I write.
-
+          🏢 Ex-{highlightedText("Amazon Quality Engineer")}, where I strengthened my approach to {highlightedText("scalable systems, disciplined testing practices, and product reliability")}. That experience shaped my ability to deliver quality at enterprise scale.
         </p>
 
         <p className="text-sm md:text-base">
-          My journey blends two worlds — {highlightedText("tech")} and {highlightedText("sport")}. By day, I write test cases, break builds, and fix bugs. By evening, I train with a clear goal: to score runs, build stamina, and chase the impossible.
+          ⚙️ My technical abilities span across {highlightedText("automation, full-stack development, and applied AI")}, helping me design solutions that are not only reliable but also {highlightedText("strategic, scalable, and efficient")}. I specialize in leveraging code to improve product quality, accelerate release cycles, and connect engineering practices with business outcomes.
         </p>
 
         <p className="text-sm md:text-base">
-          I believe in the power of {highlightedText("consistency")}. Whether it&apos;s hitting the gym 5 times a week, solving LeetCode problems, or building side projects like my own {highlightedText("life gamification app")} — I do the work when no one&apos;s watching.
+          🤝 Beyond technology, I bring a {highlightedText("quality-first, strategic mindset")} supported by strong {highlightedText("communication, collaboration, and problem-solving skills")}. I thrive at the intersection of software engineering and quality strategy, ensuring not only that systems work, but that teams work better together to deliver them.
         </p>
 
         <p className="text-sm md:text-base">
-          When things get hard, I lean on {highlightedText("faith, strategy, and silence")}. I push myself through calculated discipline — whether it&apos;s in my daily 5:30 PM workout, my 6 AM fasted cardio, or when refactoring test automation for CI/CD pipelines.
+          🔑 What defines my work is a {highlightedText("quality-first, strategic mindset")} combined with {highlightedText("Python + AI expertise")} that I continue to expand. I thrive at the intersection of {highlightedText("software engineering, test strategy, and innovation")}, always aiming to build systems that are {highlightedText("reliable, scalable, and future-facing")}.
         </p>
 
         <p className="text-sm md:text-base">

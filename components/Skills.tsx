@@ -29,8 +29,8 @@ const skillCategories: SkillCategory[] = [
   {
     name: "Programming Languages",
     skills: [
-      { name: "Java", level: 60 },
       { name: "Python", level: 60 },
+      { name: "Java", level: 60 },
       { name: "JavaScript", level: 60 },
       { name: "TypeScript", level: 60 },
       { name: "SQL", level: 60 },
@@ -96,6 +96,21 @@ const skillCategories: SkillCategory[] = [
       { name: "Framer Motion", level: 60 },
       { name: "Lucide React", level: 60 },
       { name: "React Icons", level: 60 },
+    ],
+  },
+  {
+    name: "AI/ML",
+    skills: [
+      { name: "Artificial Neural Networks", level: 60 },
+      { name: "Reinforcement Learning", level: 60 },
+      { name: "Supervised & Unsupervised Learning", level: 60 },
+      { name: "Model Training", level: 60 },
+      { name: "PyTorch", level: 60 },
+      { name: "Pandas", level: 60 },
+      { name: "NumPy", level: 60 },
+      { name: "Machine Learning", level: 60 },
+      { name: "Deep Learning", level: 60 },
+      { name: "Jupyter Notebook", level: 60 },
     ],
   },
   {
