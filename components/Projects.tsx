@@ -15,39 +15,37 @@ interface ProjectsProps {
 
 const projects = [
   {
-    title: "Automated Web Testing Framework (Software Testing Project)",
-    date: "May 2024 – Aug 2024",
-    tools: ["Selenium WebDriver", "Java", "TestNG", "Maven", "Jenkins", "JIRA"],
+    title: "Devfolio – Portfolio Generator",
+    date: "Mar 2025 - Present",
+    tools: ["Vite", "React.js", "Tailwind CSS", "JavaScript", "Supabase", "SQL"],
     bullets: [
-      "Designed and implemented a test automation framework for an e-commerce platform using Java and Selenium, following Page Object Model (POM) and data-driven testing principles.",
-      "Developed utility classes to improve code maintainability and reduce test duplication by over 50%.",
-      "Integrated the framework with Jenkins CI/CD pipelines to enable nightly automated test runs, ensuring quick feedback during development.",
-      "Authored TestNG test suites covering checkout, cart, login, and payment flows across multiple browsers.",
-      "Logged bugs and test evidence in JIRA, contributing to early detection and resolution of production defects."
+      "Built a full-stack web application that helps freelancers and junior developers generate and host professional portfolio websites without writing code.",
+      "Features include a landing page, portfolio builder form, live preview, hosted portfolio generation, and user login.",
+      "Designed for scalability and performance, with future stretch goals including PDF export, dark mode, testimonials, custom domains, and LinkedIn résumé autofill.",
+      "Demonstrates full-stack development, UI/UX design, and product thinking."
     ]
   },
   {
-    title: "API Testing for E-Commerce Platform (Software Testing Project)",
-    date: "May 2023 – Jul 2023",
-    tools: ["REST Assured", "Java", "Postman", "JSON", "Swagger"],
+    title: "Healthcare Billing Analytics Pipeline - Data-Driven Healthcare Insights",
+    date: "Aug 2025 - Sep 2025",
+    tools: ["Python", "SQL", "SQLite", "Pandas", "SQLAlchemy", "Seaborn", "Matplotlib", "Plotly", "Data Visualization", "ETL Pipeline", "Business Intelligence", "Excel Processing", "KPI Development"],
     bullets: [
-      "Developed an API automation suite using REST Assured and Java, validating microservices for products, orders, authentication, and payment modules.",
-      "Created parameterized tests to validate response structure, status codes, business logic, and error handling, using schema validation and custom assertions.",
-      "Implemented data-driven API testing using JSON payloads for various test scenarios, increasing coverage and reusability.",
-      "Identified edge case failures and worked with backend developers to address integration defects, enhancing endpoint stability pre-release.",
-      "Documented test runs and results aligned with API documentation through Postman collections."
+      "Developed a comprehensive end-to-end data analytics solution that transforms raw Excel healthcare billing data into actionable business insights and strategic decision-making tools. The project encompasses a complete data pipeline from initial data ingestion to advanced analytics and visualization.",
+      "Data Processing Engine: Built automated ETL pipeline using Python and Pandas to process multi-sheet Excel files containing patient demographics, billing records, department information, and service data. Implemented robust data validation, error handling, and logging systems to ensure data integrity throughout the pipeline.",
+      "Database Architecture: Designed and implemented SQLite database schema with optimized table structures for efficient querying and data storage. Created automated table creation and data loading processes with column sanitization for SQL compatibility.",
+      "Advanced SQL Analytics: Developed comprehensive SQL queries for complex healthcare analytics including revenue analysis by department, patient demographic analysis, insurance claim processing insights, billing pattern recognition, and performance metrics calculation. Implemented time-series analysis for trend identification and quarterly performance tracking.",
+      "Data Visualization & Reporting: Created interactive dashboards and visualizations using Matplotlib, Seaborn, and Plotly to present revenue trends, patient demographic distributions, billing insights, and department performance metrics. Generated professional-quality charts and reports for stakeholder presentations."
     ]
   },
   {
-    title: "Inventory Management System (Software Development Project)",
-    date: "Jan 2023 – Apr 2023",
-    tools: ["Java", "Spring Boot", "MySQL", "REST API", "JUnit", "Mockito"],
+    title: "Semi Professional Cricketer",
+    date: "Sep 2006 - Present",
+    tools: ["Athletics", "Strategic Planning", "Decision-Making", "Team Leadership", "Goal oriented", "Time Management", "Perseverance", "Competitive Spirit", "Sportsmanship"],
     bullets: [
-      "Developed a full-stack inventory management application featuring RESTful APIs, role-based access control, and real-time inventory tracking.",
-      "Applied object-oriented principles to structure services, repositories, and models using Spring Boot's layered architecture.",
-      "Created unit and integration tests using JUnit and Mockito, achieving 90% code coverage for key modules.",
-      "Validated backend logic and database interaction through integration tests, simulating various edge cases and transaction rollbacks.",
-      "Optimized MySQL queries for improved response time, supporting scalable performance under concurrent user load."
+      "Wicket Keeper Batsman for Pittsburgh Cricket Team 2024 to Present",
+      "Opening Batsman for Chicago United Cricket Club contributed to multiple leagues from 2022 to 2024",
+      "Represented Hyderabad Cricket Association in multiple age groups state tournaments from 2013 to 2020",
+      "Awardee for Player of the Tournament, Best Batsman and Best Wicket Keeper across numerous clubs and high school tournaments in Hyderabad, India and USA."
     ]
   }
 ];

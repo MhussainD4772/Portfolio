@@ -9,31 +9,31 @@ interface ExperienceProps {
 
 const experienceItems = [
   {
-    title: "Software Development Engineer in Test (SDET)",
-    company: "First National Bank | Pittsburgh, Pennsylvania",
-    period: "Nov 2024 – Present",
+    title: "QA Automation Engineer",
+    company: "F.N.B Corporation | Pittsburgh, Pennsylvania",
+    period: "Nov 2024 - Present",
     responsibilities: [
-      "Created a Playwright automation framework using Java, enabling scalable test scripts for banking workflows. Automated transactions in Argo Teller and Navigator, ensuring backend consistency with real-time timestamp validations at over 99% accuracy.",
-      "Collaborated with developers and product owners to define test strategy, discover defects, and maintain testability standards.",
-      "Integrated Playwright tests into Azure DevOps CI/CD pipelines, cutting regression cycle time by 60% and ensuring automated execution across environments.",
-      "Used data-driven and component-based test design patterns, reducing script maintenance by 40% and enhancing code readability.",
-      "Debugged flaky tests, improving test reliability across UI/API layers and preventing production regressions.",
-      "Designed REST API validation suites, identifying mismatches and boosting system reliability during financial operations.",
-      "Participated in sprint planning, retrospectives, and test case reviews in an Agile setup, focusing on quality throughout the SDLC."
+      "Automated large suites of test cases for cross-team initiatives (Fraud Detection, Anti-Money Laundering), significantly reducing manual testing effort and allowing teams to reallocate focus toward risk analysis and fraud prevention strategy.",
+      "Enhanced framework capabilities by building custom step definitions and integrating Excel-driven test data pipelines, strengthening data accuracy and expanding test coverage.",
+      "Oversaw critical feature enhancement releases, ensuring delivery quality by detecting bugs, validating fixes, and providing QA approval before production rollout.",
+      "Automated end-user workflows end-to-end, reducing regression cycles and improving release confidence. Authored a comprehensive regression testing handbook for consistent and scalable QA practices.",
+      "Skills: Python (Programming Language) · Playwright · Java · Cucumber (BDD) · TestNG · Git · SQL · End-to-end Testing · Project Management · Continuous Integration and Continuous Delivery (CI/CD) · Excel Integration · Quality Assurance · JavaScript · Software Development · Test Automation Frameworks · IntelliJ IDEA · Sprint Planning · Continuous Process Improvement · Strategy · API Testing · Data Analysis · Data Driven Testing · Defect Tracking · Problem Solving"
     ],
   },
   {
     title: "Quality Analyst",
-    company: "Yotta Systems Inc | India",
-    period: "Aug 2018 – Aug 2022",
+    company: "Amazon",
+    period: "Aug 2018 - Aug 2022",
     responsibilities: [
-      "Built automated test scripts using Selenium with Python and TestNG, validating Amazon services' frontend and backend functionality.",
-      "Enhanced an internal test automation framework by integrating custom utilities and assertion libraries, reducing code duplication and speeding up new test onboarding.",
-      "Designed and implemented modular test suites using BDD (Cucumber) to improve collaboration between QA, PMs, and dev teams.",
-      "Led validation of functional and non-functional requirements, including edge case testing, regression testing, and UI responsiveness.",
-      "Analyzed code-level issues with developers, providing root cause insights and contributing to early bug prevention.",
-      "Used JIRA to track test progress, bug status, and release readiness, ensuring traceability and communication with stakeholders.",
-      "Documented test results and contributed to quality metrics reporting, supporting data-driven decisions on software stability."
+      "Delivered end-to-end testing for high-scale Amazon platforms, validating complex workflows across web, mobile, and backend systems, ensuring quality for millions of global users.",
+      "Performed manual functional, regression, and UAT testing, uncovering critical defects early in the lifecycle and preventing costly production issues.",
+      "Designed and executed automation test suites (Selenium, Python, Java), reducing regression cycle times and strengthening release pipelines.",
+      "Partnered with cross-functional teams (developers, product owners, UX) in Agile ceremonies sprint planning, story grooming, reviews, and retrospectives providing a quality-first perspective.",
+      "Applied SQL queries and backend validations to ensure data accuracy, integrity, and alignment with business logic.",
+      "Owned defect lifecycle management logging, triaging, and verifying bugs and collaborated with dev teams to ensure faster resolution and reduced leakage.",
+      "Contributed to process improvements by refining test plans, introducing test case management best practices, and mentoring new QA engineers in Amazon's quality frameworks.",
+      "Recognized for consistently balancing manual precision with automation efficiency, enabling faster feature rollouts while maintaining Amazon's high quality bar.",
+      "Skills: Manual Testing · Automation Testing · Selenium · Python (Programming Language) · Regression Testing · Functional Testing · End to End Testing · API Testing · Continuous Integration and Continuous Delivery (CI/CD) · Project Management · SQL · Defect Tracking · Git · Microsoft Visual Studio Code · Quality · Continuous Process Improvement"
     ],
   },
 ];
